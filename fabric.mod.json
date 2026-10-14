@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "near_action",
+  "version": "${version}",
+  "name": "Near Action",
+  "description": "Runs a configurable command when /near reports nearby players.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.nearaction.NearActionClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
